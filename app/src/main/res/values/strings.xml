@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Payment Alert</string>
+    <string name="notification_listener_label">Payment Alert listener</string>
+</resources>

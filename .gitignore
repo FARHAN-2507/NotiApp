@@ -1,0 +1,33 @@
+# Gradle / Android build
+*.iml
+.gradle/
+.kotlin/
+build/
+captures/
+.externalNativeBuild
+.cxx
+local.properties
+.idea/
+
+# Firebase (contains API keys / project config)
+app/google-services.json
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log
+
+# Cloud functions
+functions/node_modules/
+functions/lib/
+
+# Signing keys and packaged apps (never commit)
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+*.apk
+*.aab
+
+# Editor / OS metadata
+.DS_Store
+.directory
+.vscode/
